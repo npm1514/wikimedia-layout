@@ -1,1 +1,60 @@
+body {
+	width:100%;
+	margin:auto;
+}
 
+header {
+	font-family: Tahoma;
+	font-size: 20px;
+	padding: 20px;
+	line-height: 150%;
+	width:75%;
+	margin:auto;
+}
+
+header a {
+	text-decoration: none;
+	color: #0645AD;
+}
+
+.Welcome {
+	height:80px;
+	font-weight: bold;
+	text-align: right;
+	font-family: Calibri;
+	font-size: 25px;
+	margin:auto;
+	width:75%;
+}
+
+.links {
+	width:100%;
+	margin:0 auto;
+	clear:both;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items:center;
+	align-content: center;
+}
+
+.links a img{
+	width: 135px;
+	margin:10px 75px 10px 75px;
+}
+
+footer {
+	font-size: 15px;
+	text-align: center;
+}
+
+footer div {
+	display: inline;
+}
+
+footer div a {
+	padding: 15px;
+	color: #0645AD;
+	text-decoration: none;
+}
